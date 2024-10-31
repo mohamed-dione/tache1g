@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open sans', sans-serif
+}
+
+.div1{
+    height: 250px;
+    width: 500px;
+    border: 15px ridge black;
+    background-color: #5f9;
+    border-radius: 10px groove black;
+    padding: 133px;
+}
+
+.p1{
+    height: 200px;
+    width: 50%;
+    background-color: #7fff00;
+    border-width: 3px;
+    border-style: inset;
+    border-color: indigo;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

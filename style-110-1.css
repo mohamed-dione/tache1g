@@ -1,0 +1,10 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.div1{
+    background: -webkit-linear-gradient(180deg, #7200bc,green,blue,orangered);
+    background: -o-linear-gradient(180deg,#7200bc,green,blue,orangered);
+    background: -moz-linear-gradient(180deg,#7200bc,green,blue,orangered);
+    background: linear-gradient(180deg,#7200bc,green,blue,orangered);
+}

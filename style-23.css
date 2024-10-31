@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open sans' , sans-serif
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p1{
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.p2{
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+}

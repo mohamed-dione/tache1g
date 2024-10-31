@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1{
+    background-color: blue;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    width: 500px;
+    height: 400px;
+}
+
+h1{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+.p1{
+    position: relative;
+    left: 50px;
+}  

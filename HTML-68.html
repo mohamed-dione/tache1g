@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            <label for="prenom">Entrez votre prénom </label>
+            <input type="text" id="prenom" name="prenom"><br>
+             
+            <label for="pass">Entrez un mot de passe</label>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="prez">Une petite présentation ?</label>
+            <textarea id="prez" name="presentation"></textarea><br>
+             
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>

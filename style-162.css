@@ -1,0 +1,33 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    -webkit-animation-name: chgt-couleur;
+    -webkit-animation-duration: 5s;
+    -moz-animation-name: chgt-couleur;
+    -moz-animation-duration: 5s;
+    -o-animation-name: chgt-couleur;
+    -o-animation-duration: 5s;
+    animation-name: chgt-couleur;
+    animation-duration: 5s;
+}
+@-webkit-keyframes chgt-couleur{
+    from{background-color: orange;}
+    to{background-color: indigo;}
+}
+@-moz-keyframes chgt-couleur{
+    from{background-color: orange;}
+    to{background-color: indigo;}
+}
+@-o-keyframes chgt-couleur{
+    from{background-color: orange;}
+    to{background-color: indigo;}
+}
+@keyframes chgt-couleur{
+    from{background-color: orange;}
+    to{background-color: indigo;}
+}

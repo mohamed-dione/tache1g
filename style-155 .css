@@ -1,0 +1,26 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+#fb,  #is ,  #tw{
+    width: 260px;
+    height: 400px;
+    display: block;
+    position: absolute;
+}
+
+#fb{
+    background-image: url("leverdusoleil.jpg");
+    background-position: 0px 0px;
+}
+
+#ins{
+    background-image: url("leverdusoleil.jpg");
+    background-position: -50px 0px;
+    left: 200px;
+}
+
+#tw{
+    background: url("leverdusoleil.jpg") -100px -50px;
+    left: 400px;
+}

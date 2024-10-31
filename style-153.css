@@ -1,0 +1,11 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+p::-moz-selection{
+    background-color: brown;
+}
+
+p::selection{
+    background-color: brown;
+}

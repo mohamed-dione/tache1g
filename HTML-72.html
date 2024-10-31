@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            Où habitez vous ?<br>
+            <select name="pays">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                </optgroup>
+                <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="maroc">Maroc</option>
+                    <option value="tunisie">Tunisie</option>
+                    <option value="algérie">Algérie</option>
+                    <option value="togo">Togo</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="prez">Une petite présentation</label>
+            <textarea id="prez"name="presentation"></textarea><br>
+        </form>
+    </body>
+</html>

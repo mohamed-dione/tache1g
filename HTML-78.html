@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            <label for="prenom">Entrez votre prénom :</label>
+            <input type="text" name="prenom" id="prenom"><br>
+            <label for="nom">Entrez votre nom :</label>
+            <input type="text" name="nom" id="nom"><br>
+            <label for="pseudo">Choisissez un pseudonyme :</label>
+            <input type="text" name="pseudo" id="pseudo"><br>
+
+            Quels sont vos loisirs ?<br>
+            <input type="checkbox" name="hobbies" value="informatique" id="inf">
+            <label for="inf"> Informaique</label>
+            <input type="checkbox" name="hobbies" value="sport" id="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" name="hobbies" value="voyages" id="vogayes">
+            <label for="vogayes">Vogayes</label>
+            <input type="checkbox" name="hobbies" value="musique" id="musique">
+            <label for="musique">Musique</label>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>       

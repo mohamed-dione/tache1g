@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            <label for="prenom">Entrez votre prénom</label>
+            <input type="text" name="prenom" id="prenom" autocomplete="on" placeholder="Ex:Mohamed"><br>
+            
+            <label for="nom">Entrez votre nom</label>
+            <input type="text" name="nom" id="nom" autofocus="autofocus"><br>
+            
+            <label for="nombre">Choisissez un chiffre entre 1 et 10</label>
+            <input type="number" name="nombre" id="nombre" min="1" max="10">
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>

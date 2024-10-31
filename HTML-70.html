@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            Homme et femme ? <br>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme"> Un homme</label><br>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme"> Une femme</label><br><br>
+
+            Majeur ou mineur ?<br>
+            <input type="radio" id="mineur" name="age" value="mineur">
+            <label for="mineur"> Mineur</label><br>
+            <input type="radio" id="majeur" name="age" value="majeur">
+            <label for="majeur">Majeur</label><br><br>
+
+            <label for="prez">Une petite présentation ?</label>
+            <textarea id="prez" name="presentation"></textarea><br>
+             
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>

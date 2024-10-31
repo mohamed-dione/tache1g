@@ -1,0 +1,24 @@
+body{
+    font-family:'Open Sans' , sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.p1{
+    text-transform: lowercase;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.p2{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: 1px 1px 1px red;
+}
+
+a{
+    text-decoration: none;
+}

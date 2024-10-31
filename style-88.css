@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;;
+}
+
+.div1{
+    background-color: blue;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+}

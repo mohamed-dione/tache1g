@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            Quel(s) sport(s) pratiquez vous ?<br>
+            <input type="checkbox" name="sport" value="natation" id="natatiion">
+            <label for="natation"> Natation</label><br>
+            <input type="checkbox" name="sport" value="course" id="course">
+            <label for="course"> Course à pied</label><br>
+            <input type="checkbox" name="sport" value="velo" id="velo">
+            <label for="velo"> Vélo</label><br><br>
+
+            <label for="prez">Une petite présentation ?</label>
+            <textarea id="prez" name="presentation"></textarea><br>
+
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>     

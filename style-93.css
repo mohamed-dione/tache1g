@@ -1,0 +1,12 @@
+body{
+    font-family:'Open Sans', sans-serif;
+    background-color: red;
+}
+
+h1{
+    background-color: green;
+}
+
+.div1{
+    background-color: rgb(255, 191, 0);
+}

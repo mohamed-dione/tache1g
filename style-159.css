@@ -1,0 +1,18 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background:#ffa500;
+    -webkit-transition: 3s width 2s ease, 3s background-color 5s ease;
+    -moz-transition: 3s width 2s ease, 3s background-color 5s ease;
+    -o-transition: 3s width 2s ease, 3s background-color 5s ease;
+    transition: 3s width 2s ease, 3s background-color 5s ease;
+}
+
+div:hover{
+    width: 500px;
+    background-color: #ff0000;
+}

@@ -1,0 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+div{
+    background-color: blue;
+    width: 450px;
+    height: 200px;
+    margin: 0px auto;
+}

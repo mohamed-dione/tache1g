@@ -1,0 +1,19 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.div1{
+    height: 375px;
+    width: 500px;
+    background-color: #5f9;
+    border: 5px ridge black;
+}
+
+.p1{
+    height: 100px;
+    width: 50%;
+    background-color: green;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: indigo;
+}

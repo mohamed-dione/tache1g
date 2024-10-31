@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    border: 1px solid black;
+}
+
+.p1{
+    display: inline-block;
+}
+
+.P2{
+    display: inline-block;
+}

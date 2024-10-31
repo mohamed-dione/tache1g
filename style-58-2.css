@@ -1,0 +1,13 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+p{
+    display: inline;
+    border: 1px solid black;
+}
+
+span{
+    border: 1px solid black;
+    display: block;
+}   

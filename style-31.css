@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif
+}
+
+.p1{
+    letter-spacing: 2px;
+    word-spacing: 15px;
+}
+
+.p2{
+    letter-spacing: -20px;
+    text-align: right;
+}

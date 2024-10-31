@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1{
+    background-color: blue;
+    width: 480px;
+    height: 350px;
+    z-index: 100;
+    float: right;
+}   
+
+h1{
+    z-index: 1000;
+    float: left;
+}
+
+.p1{
+    left: 50px;
+    float: right;
+}

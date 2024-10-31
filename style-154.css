@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+    
+div{
+    border: 1px solid black;
+}
+
+div::before{
+    content: "Du texte ajouté au début de mon div, avec :: before";
+}
+
+div::after{
+    content: url("leverdusoleil.jpg"); 
+}     

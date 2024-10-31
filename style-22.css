@@ -1,0 +1,17 @@
+body{
+    background-color: brown;
+    font-family: 'Open sans' , sans-serif
+}
+
+h1{
+    color: RGBa(15,5,107,1.0); /* #00008b*/
+}
+
+.p1{
+    color: RBG(144,238,144);
+    opacity: 0,5;
+}
+
+.p2{
+    color: #808080;
+}

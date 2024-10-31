@@ -1,0 +1,12 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div{
+    background-color: blue;
+}
+
+.p1{
+    position: static;
+    top: 150px;
+}

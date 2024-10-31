@@ -1,0 +1,14 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #AB3;
+}
+
+div:hover{
+    width: 500px;
+    background-color: #7ff;
+}

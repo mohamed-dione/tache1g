@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+
+@media screen and (min-width: 680px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media screen and (max-width: 381px) and (max-width: 1279px){
+    body{
+        background-color: brown;
+    }
+    h1{
+        font-size: 20px;
+    }
+}

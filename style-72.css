@@ -1,0 +1,16 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1{
+    background-color: blue;
+}
+
+h1{
+    position: fixed;
+}
+
+.p1{
+    position: relative;
+    left: 50px;
+}

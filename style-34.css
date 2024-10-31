@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1{
+    height: 300px;
+    width: 500px;
+    background-color: #8a2be2;
+}
+    
+.p1{
+    height: 100px;
+    width: 500px;
+    background-color: #ffff00 ;
+}

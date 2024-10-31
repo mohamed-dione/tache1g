@@ -1,0 +1,7 @@
+body{
+    font-family:'Open Sans', sans-serif;
+    background-image: url("leverdusoleil.jpg") , url("leverdusoleil.webp");
+    background-size: 25%, 55%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+}

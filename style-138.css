@@ -1,0 +1,22 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+h1{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+
+    background-color: #FFF;
+    background-image: url('leverdusoleil.webp');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+}
+
+p{
+    font: italic normal 16px/24px Verdana, sans-serif;
+    background: #FFF url('leverdusoleil.webp') no-repeat scroll top left;
+}

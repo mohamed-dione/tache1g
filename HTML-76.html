@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les formulaires</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Les formulaires</h1>
+        <form method="post" action="traitement.php">
+            Homme et femme ? <br>
+            <input type="radio" id="homme" name="sexe" value="homme" checked="checked">
+            <label for="homme"> Un homme</label><br>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme"> Une femme</label><br><br>
+
+            Quel(s) sport(s) pratiquez vous ?<br>
+            <input type="checkbox" name="sport" value="natation" id="natation" checked="checked">
+            <label for="natation"> Natation</label><br>
+            <input type="checkbox" name="sport" value="course" id="course" checked="checked">
+            <label for="course"> Course à pied</label><br>
+            <input type="checkbox" name="sport" value="velo" id="velo">
+            <label for="velo"> Vélo</label><br><br>
+
+            Où habitez vous ?<br>
+            <select name="pays">
+                <optgroup label="Europe">
+                    <option value="france" selected="selected">France</option>
+                    <option value="belgique">Belgique</option>
+                </optgroup>
+                <optgroup label="Amérique">
+                    <option value="canada" selected="selected">Canada</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="maroc">Maroc</option>
+                    <option value="tunisie">Tunisie</option>
+                    <option value="algérie">Algérie</option>
+                    <option value="togo">Togo</option>
+                </optgroup>
+            </select>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </body>
+</html>

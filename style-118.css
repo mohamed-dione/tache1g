@@ -1,0 +1,23 @@
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.div1{
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: -webkit-radial-gradient(20% 40%, closest-side,red 10%,indigo 30%, brown);
+    background: -o-radial-gradient(20% 40%, closest-side, red 10%, indigo 30%, brown);
+    background: -moz-radial-gradient(20% 40%, closest-side, red 10%, indigo 30%, brown);
+    background: radial-gradient(closest-side at 20% 40%, red 10%, indigo 30%, brown);
+}
+
+.div2{
+    float:right;
+    width: 400px;
+    height: 400px;
+    background: -webkit-radial-gradient(20% 40%, farthest-side,red 10%, indigo 30%, brown);
+    background: -o-radial-gradient(20% 40%, farthest-side,red 10%, indigo 30%, brown);
+    background: -moz-radial-gradient(20% 40%, farthest-side, red 10%, indigo 30%, brown);
+    background: radial-gradient(20% 40%, farthest-side, red 10%, indigo 30%, brown) ;
+}
